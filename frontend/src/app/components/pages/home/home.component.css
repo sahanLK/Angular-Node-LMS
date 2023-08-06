@@ -1,0 +1,93 @@
+.welcome-page-image {
+    position: relative;
+    text-align: left;
+    color: #fff;
+  }
+  
+  .welcome-page-image img {
+      min-width: 100%;
+      min-height: 450px;
+      width: auto !important;
+  }
+  
+  .welcome-page-image .img-textbox {
+      position: absolute;
+      top: 30%;
+      left: 20px;
+      margin-right: 10px;
+  }
+  
+  .welcome-page-image .img-textbox .text {
+      padding: 20px;
+      padding-left: 10px;
+      backdrop-filter: blur(15px);
+      border-radius: 5px;
+  }
+  
+  .welcome-page-image .img-textbox .welcome-msg {
+      font-size: 50px;
+      letter-spacing: 1px;
+      font-weight: 700;
+      backdrop-filter: blur(15px);
+  }
+  
+  .welcome-page-image .img-textbox .personalized {
+      font-size: 25px;
+      letter-spacing: 1px;
+      border-radius: 5px;
+      padding-bottom: 5px;
+  }
+  
+  .welcome-page-image .img-textbox .ucr {
+      font-size: 25px;
+      letter-spacing: 1px;
+      border-radius: 5px;
+  }
+  
+  .visitor-middle {
+      background: #2193b0;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      color: #fff;
+  
+  }
+  
+  .visitor-middle h4,
+  .visitor-middle h5 {
+      font-family: 'Epilogue', sans-serif;
+      font-weight: 800;
+      font-size: 35px;
+      color: #f2f2f2;
+      letter-spacing: 2px;
+  }
+  
+  .visitor-middle .msg {
+      font-family: 'Inter', sans-serif;
+      font-size: 18px;
+      letter-spacing: 1px;
+  }
+  
+  .visitor-middle .signup-btn a {
+      padding: 12px 24px;
+      background-color: #fff;
+      color: #808080;
+      font-family: 'Inter', sans-serif;
+      border-radius: 12px;
+      transition: 0.3s;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+  }
+  
+  .visitor-middle .signup-btn a:hover {
+      text-decoration: none;
+      background-color: #f2f2f2;
+      color: #4d4d4d;
+  }
+  
+  .gradient-apply {
+      background: #2193b0;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  }
+  

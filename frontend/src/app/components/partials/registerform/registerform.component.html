@@ -1,0 +1,24 @@
+<form class="container login-form my-5 mw-500" [formGroup]="registerForm">
+    <legend class="pb-1 mb-4 border-bottom">Sign Up</legend>
+    <div class="mb-3">
+        <label for="username" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" formControlName="email">
+    </div>
+
+    <div class="mb-3">
+        <label for="username" class="form-label">Username</label>
+        <input type="email" class="form-control" id="username" formControlName="username">
+    </div>
+
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input type="password" class="form-control" formControlName="password1">
+    </div>
+
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
+        <input type="password" class="form-control" formControlName="password2">
+    </div>
+
+    <button class="btn btn-primary" (click)="register()">Sign Up</button>
+</form>
